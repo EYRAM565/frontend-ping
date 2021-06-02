@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.wrapper h1 {
+  color: #969696;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+.wrapper h1 span {
+  color: #151f29;
+}
+
+.wrapper .subscribe {
+  color: #151f29;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+}
+
+.wrapper input {
+  outline: none;
+}
+
+.wrapper small {
+  color: #ff5263;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+}
+
+.wrapper button {
+  background: #4f7df3;
+  border: 1px solid #4f7df3;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.9rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+  padding: 1rem;
+  list-style: none;
+}
+
+.wrapper .fab {
+  color: #4f7df3;
+  border: 1px solid #969696;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+}
+
+.wrapper .fab:hover {
+  background-color: #4f7df3;
+  color: #fff;
+}
+
+.wrapper .copy-right {
+  color: #969696;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 35rem) {
+  .wrapper {
+    margin: 0 auto;
+    padding-top: 2.5rem;
+  }
+  .wrapper header {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .wrapper header .logo {
+    margin-bottom: 2rem;
+    width: 30%;
+  }
+  .wrapper header h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  .wrapper header .subscribe {
+    margin-bottom: 1.2rem;
+  }
+  .wrapper form {
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+  }
+  .wrapper form input {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    height: 45px;
+    padding: 0.9rem;
+    border-radius: 20px;
+    border: 1px solid #969696;
+  }
+  .wrapper form button {
+    margin-top: 1rem;
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+  }
+  .wrapper .illus {
+    width: 85%;
+  }
+  .wrapper .copy-right {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 35rem) {
+  .wrapper {
+    margin-top: 2.5rem;
+  }
+  .wrapper header {
+    margin: 1.5rem;
+    padding: 1.2rem;
+  }
+  .wrapper header .logo {
+    width: 7%;
+    margin-bottom: 1.8rem;
+  }
+  .wrapper header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .wrapper form {
+    position: relative;
+    margin-bottom: 3.5rem;
+  }
+  .wrapper form input {
+    border: 1px solid #969696;
+    border-radius: 25px;
+    height: 50px;
+    margin-right: 0.8rem;
+    padding: 8px;
+    width: 340px;
+  }
+  .wrapper form small {
+    position: absolute;
+    top: 100%;
+    left: 30.8%;
+  }
+  .wrapper form button {
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+  }
+  .wrapper .illus {
+    width: 75%;
+  }
+  .wrapper .copy-right {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
